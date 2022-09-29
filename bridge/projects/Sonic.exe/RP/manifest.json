@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"SoulShiki"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.3.3"
+			],
+			"dash": [
+				"0.9.29"
+			]
+		}
+	},
+	"header": {
+		"name": "Sonic.exe",
+		"description": "",
+		"min_engine_version": [
+			1,
+			19,
+			20
+		],
+		"uuid": "57388514-a99f-44bc-9b81-8cf0d2a80fb4",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "52a79540-6192-4835-a77f-f36354b137d2",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "ca099416-29a8-4eb1-b063-d02315e8248c",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Sonic.exe",
+	"namespace": "exe",
+	"authors": [
+		"SoulShiki"
+	],
+	"targetVersion": "1.19.20",
+	"description": "",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": false,
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": false,
+		"educationEdition": false
+	},
+	"bdsProject": true,
+	"packs": {
+		"resourcePack": "./RP",
+		"behaviorPack": "./BP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"generatorScripts",
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"rewriteForPackaging",
+			"simpleRewrite",
+			"generatorScripts",
+			"moLang",
+			"formatVersionCorrection",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Sonic.exe"
+				}
+			]
+		]
+	}
+}
